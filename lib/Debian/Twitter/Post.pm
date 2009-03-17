@@ -1,7 +1,8 @@
 package Debian::Twitter::Post;
 
-use strict;
-use warnings;
+use Modern::Perl;
+
+use IPC::Open3;
 
 use Apache2::Request ();
 use Apache2::RequestRec ();
@@ -22,23 +23,29 @@ sub handler {
 
 	return Apache2::Const::HTTP_BAD_REQUEST unless $trace;
 
-	my $ft = File::Temp->new;
-	open my $f, ">/tmp/caca";
-	print $f $trace;
-	close $f;
+	# from this point, everything's plain
+	$r->content_type("text/plain");
 
-	open my $f, "/tmp/caca";
-	my @lines = <$f>;
-	close $f;
+	my($in, $out, $err);
+	my $cpid = open3($in, $out, $err, "gpg", "--verify");
 
-	$r->content_type('text/plain');
+	print $in $trace;
 
-	$r->print(@lines);
+	close $in;
 
-	close $ft;
+	my @out = <$out>;
+	my @err = <$err> if $err;
 
-	#$r->content_type('text/plain');
-	#$r->print("All good so far.\n\n");
+	close $out;
+	close $err if $err;
+
+	waitpid($cpid, 0);
+
+	if($?) {
+		$r->print("That doesn't seem to be a GPG-signed message. Aborting.\n");
+	} else {
+		$r->print("Seems cool so far.\n");
+	}
 
 	return Apache2::Const::OK;
 }
