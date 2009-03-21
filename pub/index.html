@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Twitter : Debian Project</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="all">
+<link rel="stylesheet" href="jquery.twitter.css" type="text/css" media="all">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.twitter.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+	$(document).ready(function() {
+		$("#twitter").getTwitter({
+			userName: "debianproject",
+			numTweets: 5,
+			loaderText: "Loading tweets...",
+			slideIn: true,
+			showHeading: true,
+			headingText: "Latest Tweets",
+			showProfileLink: true
+		});
+	});
+//--><!]]>
+</script>
+    <!--[if IE]>
+        <style type="text/css">
+            div.post div.quote span.quote big.quote {
+                line-height: 40px;
+            }
+        </style>
+    <![endif]-->
+</head>
+<body>
+<div id="header">
+	<h1><a href="/">Debian</a></h1></div>
+	<div id="searchmenu">
+		<div class="searchbox" id="mainsearch">   
+			<div id="twitter"></div>
+				<img src="http://www.debian.org/logos/openlogo-75.png"/>
+		</div>	
+	</div>
+	<div class="pointy"></div>
+	<div id="description"><div>
+	<strong><a href="http://www.debian.org/">Debian</a> / <a href="http://twitter.com">Twitter</a> / <a href="">Link 1</a> / <a href="">Link 2</a></strong>
+	<p class="sideheader"><strong><a href="http://twitter.com/debianproject">Follow Me</a></strong></p>
+	Debian Project
+		<a href="http://twitter.com/debianproject"><img src="http://limeshot.com/images/blog/twitter/twitter-magenta.png" class="avatar" align="right" /></a>
+	</div>
+</div>
+<div id="container">
+	<div class="blogtitletwo"></div>
+	<div class="date">
+           Blah blah
+	</div>    
+	<div class="post">
+		<div class="regular">
+			<h2><a href="{Permalink}">Title</a></h2>
+				Body
+		</div>
+	</div> 
+	<div class="post-footer">
+		<a href="" class="permalink">Permalink</a>
+	</div>
+	<div id="navigation">
+	</div>
+	<center>Theme inspired by <a href="http://twitter.com">Twitter</a>.</center>  
+</div>
+</body>
