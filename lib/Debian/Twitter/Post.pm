@@ -27,7 +27,7 @@ sub handler {
 	$r->content_type("text/plain");
 
 	my($in, $out, $err);
-	my $cpid = open3($in, $out, $err, "/opt/local/bin/gpg", "--keyring", "/tmp/debian-keyring.gpg", "--homedir", "/tmp");
+	my $cpid = open3($in, $out, $err, "/usr/bin/gpg", "--keyring", "/usr/share/keyrings/debian-keyring.gpg", "--homedir", $r->dir_config('GnuPGHome'));
 
 	print $in $trace;
 
