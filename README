@@ -1,0 +1,14 @@
+Debian/Twitter interface
+========================
+
+Debian Developers can tweet to the @debianproject Twitter account by
+simply sending a GPG-clear signed POST request.
+
+Example:
+
+ echo "Debian is the shiznit" | gpg --clearsign | lwp-request -mPOST http://twitter.debian.net/post
+
+It's a nice simple hack by David Moreno <david@axiombox.com>.
+
+Find this and more other stuff at Infinite Pig Theorem: http://log.damog.net/
+

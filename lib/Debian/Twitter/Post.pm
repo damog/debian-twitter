@@ -1,7 +1,7 @@
 package Debian::Twitter::Post;
 
 use Modern::Perl;
-
+use Net::Twitter '2.11';
 use IPC::Open3;
 
 use Apache2::Request ();
@@ -27,7 +27,7 @@ sub handler {
 	$r->content_type("text/plain");
 
 	my($in, $out, $err);
-	my $cpid = open3($in, $out, $err, "gpg", "--verify");
+	my $cpid = open3($in, $out, $err, "/opt/local/bin/gpg", "--keyring", "/tmp/debian-keyring.gpg", "--homedir", "/tmp");
 
 	print $in $trace;
 
@@ -42,12 +42,22 @@ sub handler {
 	waitpid($cpid, 0);
 
 	if($?) {
-		$r->print("That doesn't seem to be a GPG-signed message. Aborting.\n");
+		$r->print("Invalid file or signature. Aborting.\n");
 	} else {
-		$r->print("Seems cool so far.\n");
+		chomp(my $tweet = $out[0]);
+		$r->print("Tweeting: `$tweet'\n");
+		my $t = Net::Twitter->new( {
+			username => $r->dir_config('TwitterUsername'),
+			password => $r->dir_config('TwitterPassword'),
+			source => 'Twitter Debian',
+		});
+		my $res = $t->update({ status => $tweet });
+		$r->print($t->http_message, "\n");
 	}
 
+	$r->print("\n");
 	return Apache2::Const::OK;
 }
 
 1;
+
