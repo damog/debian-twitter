@@ -48,7 +48,6 @@ sub handler {
 
 	if($?) {
 		$r->print("Invalid file or signature. Aborting.\n");
-		$r->print(Dumper(@out));
 	} else {
 		chomp(my $tweet = $out[0]);
 
