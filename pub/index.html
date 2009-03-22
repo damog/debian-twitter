@@ -33,7 +33,7 @@
 </head>
 <body>
 <div id="header">
-	<h1><a href="/">Debian</a></h1></div>
+	<h1><a href="/">Debian Twitter</a></h1></div>
 	<div id="searchmenu">
 		<div class="searchbox" id="mainsearch">   
 			<div id="twitter"></div>
@@ -41,26 +41,61 @@
 		</div>	
 	</div>
 	<div class="pointy"></div>
-	<div id="description"><div>
-	<strong><a href="http://www.debian.org/">Debian</a> / <a href="http://twitter.com">Twitter</a> / <a href="">Link 1</a> / <a href="">Link 2</a></strong>
-	<p class="sideheader"><strong><a href="http://twitter.com/debianproject">Follow Me</a></strong></p>
-	Debian Project
-		<a href="http://twitter.com/debianproject"><img src="http://limeshot.com/images/blog/twitter/twitter-magenta.png" class="avatar" align="right" /></a>
 	</div>
 </div>
 <div id="container">
 	<div class="blogtitletwo"></div>
 	<div class="date">
-           Blah blah
+           The Debian project on Twitter
 	</div>    
 	<div class="post">
 		<div class="regular">
-			<h2><a href="{Permalink}">Title</a></h2>
-				Body
+			<h2><a>Tweeting</a></h2>
+			<p>
+				It's possible for all Debian Developers with GPG key on the official Debian keyring to tweet under the <a href="http://twitter.com/debianproject">@debianproject</a> account.
+		</p>
+		<p>
+			<tt>$ echo "Hello Twitterland" | gpg --clearsign | lwp-request -m POST http://twitter.debian.net/post</tt>
+		</p>
+	
+		<p>As such, a tweet will appear on @debianproject's account with an appended credit/uid, such as:</p>
+		<tt>Hello Twitterland (via damog)</tt>
+
+		<p>The corresponding username is, of course, the developer's Debian username (as found on the <a href="http://db.debian.org">db.debian.org</a> LDAP).</p>
+
+		<h2>Neat, I want to test it!</h2>
+		<p>Please, do not "try" or "test" it. Given that the @debianproject account already has a number of followers, it's better if we apply common sense and only use this service when you, as Debian developer, has something worthwhile to communicate on Twitter.</p>
+
+		<h2>Is @debianproject the official Debian's Twitter account?</h2>
+		<p>Nothing's really official on Debian until it involves a <a href="http://debian.org">debian.org</a> domain, so no.</p>
+
+		<h2>Why did you build this?</h2>
+		<p>Because there are some DDs who are interested on Twitter and we'd like the Debian project to have some participation in it. Nothing more.</p>
+
+		<h2>Who build it?</h2>
+		<p><a href="http://damog.net">David Moreno</a> build this service using <a href="http://axiombox.com">Axiombox</a>'s resources. <a href="http://maggit.net/">Raquel Hernández</a> provided this nice layout. Rudy Godoy and Luciano Bello helped David testing it. Thanks to everyone involved!</p>
+
+		<h2>I'm having issues, where can I report it?</h2>
+		<p>It'd be great if you send an email to <a href="mailto:rt@support.axiombox.com">rt@support.axiombox.com</a>.
+
+		<h2>Wait, but I prefer $other_microbloggin_site!</h2>
+		<p>We are working to make this service post to on the <a href="http://identi.ca">@debianproject</a> account in <a href="http://identi.ca">Identi.ca</a>. If you are interested on integrating this service for other site, please <a href="mailto:rt@support.axiombox.com">let us know</a>.</p>
+
+		<h2>Are you following me back?</h2>
+		<p>We'll be following all of our followers, yes. It's time for Debian to retake world domination!</p>
+
+		<h2>Is there a list of official Debian developers accounts on Twitter></h2>
+		<p>We are building one! Come back soon.</p>
+
+		<h2>My GPG key is not on the Debian keyring, can I post?</h2>
+		<p><a href="mailto:rt@support.axiombox.com">Tell us why</a>, of course it's possible. We can talk about it.</a></p>
+
+		<h2>Can I haz code?</h2>
+		<p>Sure thing. The code is nothing more than a mod_perl 2 response handler with custom directives. Go grab it at <a href="http://github.com">GitHub</a>, <a href="http://github.com/damog/debian-twitter">here</a>. As it is right now, it can be easily customized to use any Twitter account with any GPG keyring.</p>
+
 		</div>
 	</div> 
 	<div class="post-footer">
-		<a href="" class="permalink">Permalink</a>
 	</div>
 	<div id="navigation">
 	</div>
