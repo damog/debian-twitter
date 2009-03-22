@@ -1,6 +1,6 @@
 div#twitter {
 	margin-bottom: 2em;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #CC3366;
 }
 
 div#twitter h2 {
@@ -8,7 +8,7 @@ div#twitter h2 {
 	padding: 0.4em 1em;
 	font-size: 1.1em;
 	color: #fff;
-	background-color: #9AE4E8;
+	background-color: #E5507E;
 }
 
 p#preloader {
@@ -27,12 +27,12 @@ ul#twitter_update_list {
 ul#twitter_update_list li {
 	margin: 0;
 	padding: 0.8em 0 1em 0;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #CC3366;
 }
 
 ul#twitter_update_list li a {
 	/* timestamp link */
-	color: #0084B4;
+	color: #B40B43;
 }
 
 ul#twitter_update_list li span {
@@ -41,7 +41,7 @@ ul#twitter_update_list li span {
 
 ul#twitter_update_list li span a {
 	/* links in tweet */
-	color: #00f;
+	color: #B40B43;
 }
 
 ul#twitter_update_list li.firstTweet {
@@ -55,5 +55,5 @@ a#profileLink {
 	display: block;
 	padding: 0.3em 1em;
 	color: #fff;
-	background-color: #9AE4E8;
+	background-color: #E5507E;
 }

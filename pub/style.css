@@ -1,15 +1,15 @@
 body{
-	background:#222 url('http://assets2.twitter.com/images/bg.gif');
+	background:#E2A3B8 url('bg.jpg');
 	margin:30px 0px 0px 340px;
 	font:Normal 13px Arial, Helvetica, sans-serif;
-	color:#222;
+	color:#362720;
 }
 #container{
 	width:80%;
 	height:100%;
 	padding:10px;
 	background-color:#fff;
-	border:1px solid #ccc
+	border:1px solid #CC3366;
 }
 #header h1{
 	font-size:50px;
@@ -18,7 +18,7 @@ body{
 	font-family: Georgia, serif;
 }
 #header h1 a{	
-	color:#fff;
+	color:#362720;
 	text-decoration:none;
 	text-shadow:#000 2px 2px 2px;
 }
@@ -31,25 +31,7 @@ body{
 	top:4px;
 	background:url(http://static.twitter.com/images/arr2.gif) no-repeat 35px 0;
 }
-div#description{
-	position:relative;
-}
-div#description div{
-	position:absolute;
-	left:555px;
-	font:Normal 14px Georgia,"Times New Roman",serif;
-	line-height:15px;
-	width:212px;
-	background-color:#FFFFFF;
-	padding:10px;
-	color:#999999;
-	margin-top:4px;
-	font-family:Arial, Helvetica, sans-serif;
-	letter-spacing:normal;
-	font-size:12px;    
-	border:1px solid #ccc;
-}
-#searchmenu {
+#sidebar {
 	position:absolute;
 	left:105px;
 	font:Normal 14px Georgia,"Times New Roman",serif;
@@ -57,31 +39,13 @@ div#description div{
 	width:200px;
 	background-color:#FFFFFF;
 	padding:10px;
-	color:#999999;
+	color:#555555;
 	margin-top:15px;
 	font-family:Arial, Helvetica, sans-serif;
 	letter-spacing:normal;
 	font-size:12px;    
-	border:1px solid #ccc;
+	border:1px solid #CC3366;
 }    
-#nav{
-	text-align: right;
-	float: right;
-	margin-left: 30px;
-	margin-bottom: 10px;
-	font-size: 11px;
-	white-spacing: nowrap;	
-}    
-#nav a{
-	color:#44A3E2;
-	font-weight:bold;
-}     
-#nav .dim {
-	filter: alpha(opacity=50); 
-	-moz-opacity: 0.5; 
-	opacity: 0.5;
-	margin: 0px 0px;
-}
 h1{
 	color: #666;
 	margin: 0px 0px 10px 0px;
@@ -93,82 +57,25 @@ h1 a{
 	color:#666;
 	text-decoration: none;
 }   
-#description {
-	color: #777;
-	font-size: 9px;
-	line-height: 18px;
-	padding-right: 70px;
-	margin-bottom: 5px;
-}
-.date {
+.maintitle {
 	margin: 30px 0px 10px 0px;
-	color:#ccc;
+	color:#990000;
 	font-size: 18px;
 	text-align: left;
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	border-bottom: solid 1px #ccc;
 }
-.sideheader {
-	margin: 30px 0px 10px 0px;
-	color: #000000;
-	font-size: 12px;
-	text-align: left;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-	border-bottom: solid 1px #ccc;
-}
 a {
 	text-decoration: none;
-	color: #000000;
+	color: #B40B43;
 }
 a:hover {
 	text-decoration:  underline;
 }
-img.avatar {
-	width: 80px;
-	height: 60px;
-	padding: 2px;
-	background: #fff;
-	border: 1px solid #ccc;
-}
-.post-footer {
-	color: #eee;
-	font-size: .8em;
-	text-align: right;
-}
-.post-footer .permalink {
-	margin-right: 1em; 
-}
-.post-footer .permalink:hover {
-	text-decoration: none;
-}
-.post-footer p.reblogged {
-	font-size:10px;
-	color:#888888;
-	padding:5px 0;
-}
-.post-footer p.reblogged a {
-	text-decoration:none;
-	background-repeat:no-repeat;
-	background-position:center left;
-	padding:2px 0 2px 18px;
-}
 div.post {
 	margin-bottom: 40px;
 	position: relative;
-}
-div.post img.permalink {
-	border-width: 0px;
-	width: 23px;
-	height: 9px;
-	position: absolute;
-	top: 5px;
-	right: 5px;
-	display: none;
-}
-div.post:hover img.permalink {
-	display: block;
 }
 div.post h2 {
 	font-size: 15px;
@@ -177,44 +84,12 @@ div.post h2 {
 }
 
 div.post h2 a {
-	color: #444;
+	color: #B40B43;
 	text-decoration: none;
 }
-
-a {
-	color:#111;
-}
-/* Regular Post */
 .post .regular {
 	font-size:        12px;
 	color:#555;
 	line-height:      17px;
 	text-align: justify;
-}
-
-.post .regular blockquote {
-	font-style: italic;
-}
-
-#navigation {
-	font-size: 11px;
-	font-weight: bold;
-}
-
-#navigation a {
-	color: #555;
-	text-decoration: none;
-}
-
-#navigation a:hover {
-	text-decoration: underline;
-}
-
-#footer {
-	margin-top: 11px;
-	font-size: 12px;
-}
-
-#footer a {
-	color: #000000;
 }
