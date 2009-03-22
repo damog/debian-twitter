@@ -2,6 +2,7 @@ package Debian::Twitter::Post;
 
 use Modern::Perl;
 use Net::Twitter '2.11';
+use Net::Identica '2.11';
 use IPC::Open3;
 use Net::LDAP;
 
@@ -95,6 +96,15 @@ sub handler {
 			password => $r->dir_config('TwitterPassword'),
 			source => 'Twitter Debian',
 		});
+
+		eval { # we might not care that much if this fails
+			my $idca = Net::Identica->new( 
+				username => $r->dir_config('IdenticaUsername'),
+				password => $r->dir_config('IdenticaPassword'),
+				source => 'Identica Debian',
+			);
+			$idca->update($tweet);
+		};
 
 		my $res = $t->update({ status => $tweet });
 		$r->print($t->http_message, "\n");
