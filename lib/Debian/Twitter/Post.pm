@@ -27,13 +27,14 @@ sub handler {
 
 	my $gpgbin = $r->dir_config('GnuPGBin') || '/usr/bin/gpg';
 	my $keyring = $r->dir_config('Keyring') || '/usr/share/keyrings/debian-keyring.gpg';
+	my $maint_keyring = $r->dir_config('MaintainersKeyring') || '/usr/share/keyrings/debian-maintainers.gpg';
 	my $gpghome = $r->dir_config('GnuPGHome') || '/tmp';
 
 	# from this point, everything's plain
 	$r->content_type("text/plain");
 
 	my($in, $out, $err);
-	my $cpid = open3($in, $out, $err, $gpgbin, "--keyring", $keyring, "--homedir", $gpghome);
+	my $cpid = open3($in, $out, $err, $gpgbin, "--keyring", $keyring, "--keyring", $maint_keyring, "--homedir", $gpghome);
 
 	print $in $trace;
 
@@ -52,7 +53,7 @@ sub handler {
 	} else {
 		chomp(my $tweet = $out[0]);
 
-		my $fprpid = open3($in, $out, $err, $gpgbin, "--verify", "--keyring", $keyring, "--homedir", $gpghome);
+		my $fprpid = open3($in, $out, $err, $gpgbin, "--verify", "--keyring", $keyring, "--keyring", $maint_keyring, "--homedir", $gpghome);
 		print $in $trace;
 		close $in;
 		
@@ -68,19 +69,22 @@ sub handler {
 
 		my $uid;
 		if($fpr) {
-			my $server = 'db.debian.org';
-			
-			my $ldap = Net::LDAP->new($server) or die "Couldn't make connection to ldap server: $@";
-			$ldap->bind;
+			eval {
+				my $server = 'db.debian.org';
 
-			$fpr =~ s/\s//g;
-			my $mesg = $ldap->search(
-				'base' => 'dc=debian,dc=org',
-				'filter' => "(keyfingerprint=$fpr)",
-				'attrs' => 'uid') or die;
-	
-			my ($entry) = $mesg->entries;
-			$uid = $entry->get('uid')->[0];
+				my $ldap = Net::LDAP->new($server) or die "Couldn't make connection to ldap server: $@";
+				$ldap->bind;
+
+				$fpr =~ s/\s//g;
+				my $mesg = $ldap->search(
+					'base' => 'dc=debian,dc=org',
+					'filter' => "(keyfingerprint=$fpr)",
+					'attrs' => 'uid'
+				) or die;
+
+				my ($entry) = $mesg->entries;
+				$uid = $entry->get('uid')->[0];
+			};
 		}
 
     # clean the tweet a bit
