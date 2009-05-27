@@ -91,7 +91,7 @@ sub handler {
     $tweet =~ s/(^\s+|\s+$)//g;
 
     if($uid) {
-      $tweet .= " (via $uid)"
+      $tweet .= " (from $uid)"
     }
 
 		$r->print("Tweeting: `$tweet'\n");
