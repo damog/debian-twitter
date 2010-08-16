@@ -1,0 +1,940 @@
+  [4;36;1mSQL (18.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (83.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-15 19:55:14) [GET]
+
+ActionController::RoutingError (No route matches "/message/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:55:29) [GET]
+
+ActionView::MissingTemplate (Missing template message/new.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:56:26) [GET]
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:56:37) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:56:50) [GET]
+Completed in 66ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:57:02) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:58:46) [GET]
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:58:56) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:59:04) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 19:59:32) [POST]
+  Parameters: {"sdf\n"=>nil}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (38.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:02:09) [POST]
+  Parameters: {"sdfsdf\n"=>nil}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:02:29) [POST]
+  Parameters: {"a"=>"1\n"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:03:02) [POST]
+  Parameters: {"a"=>"1"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:03:29) [POST]
+  Parameters: {"a"=>"1"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (111.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:05:50) [POST]
+  Parameters: {"a"=>"1"}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 20:06:05) [POST]
+  Parameters: {"a"=>"1"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:05:26) [POST]
+  Parameters: {"-"=>nil}
+
+NoMethodError (undefined method `pp' for #<MessageController:0x104712a50>):
+  app/controllers/message_controller.rb:8:in `new'
+
+Rendered rescues/_trace (162.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:09:32) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:13:18) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:13:31) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+
+NoMethodError (undefined method `first' for 945950909:Fixnum):
+  app/controllers/message_controller.rb:10:in `new'
+
+Rendered rescues/_trace (231.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:14:58) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:21:42) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:32:36) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+
+NameError (undefined local variable or method `tf' for #<MessageController:0x1046af0b8>):
+  app/controllers/message_controller.rb:13:in `new'
+
+Rendered rescues/_trace (55.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:32:46) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+
+NameError (undefined local variable or method `tf' for #<MessageController:0x104519348>):
+  app/controllers/message_controller.rb:13:in `new'
+
+Rendered rescues/_trace (111.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:33:01) [POST]
+  Parameters: {"Squeeze is scheduled for Winter 2014"=>nil}
+Completed in 446ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (21.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:33:30) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+Completed in 70ms (View: 3, DB: 22) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:34:04) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+Completed in 85ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:34:38) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+
+Completed in 127ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:35:07) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8==shPL-----END PGP SIGNATURE-----
+Completed in 67ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:36:28) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8==shPL-----END PGP SIGNATURE-----
+Completed in 126ms (View: 1, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:40:00) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+
+NameError (undefined local variable or method `env' for #<MessageController:0x101875be8>):
+  app/controllers/message_controller.rb:18:in `new'
+
+Rendered rescues/_trace (150.8ms)
+Rendered rescues/_request_and_response (23.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (17.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:40:39) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+"development"
+Completed in 260ms (View: 3, DB: 18) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:44:34) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+Completed in 129ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:45:01) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+Completed in 130ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:45:07) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+Completed in 69ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:45:33) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 94ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:46:46) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 370ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:47:21) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 309ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:47:51) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8==shPL-----END PGP SIGNATURE-----
+Completed in 69ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:51:59) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 750ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-15 21:53:09) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"=shPL-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1I think the Project needs a leader like Branden.  I do not think theProject in its current state actually wants Branden as leader.Nevertheless, I respectfully ask Branden to run for DPL this year again.-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.0 (GNU/Linux)iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOtRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcBdr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0gK+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSvP4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8==shPL-----END PGP SIGNATURE-----
+Completed in 196ms (View: 6, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:15:49) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 856ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:18:40) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1What in the name of...-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.10 (Darwin)iEYEARECAAYFAkxoyi4ACgkQmBxf18ZxJX2SLwCfeIzuImk0unrqKF7Jjed/MMHtZA4AoLXxJEdCRvaFTLi42R5nuKdsRnTL"=>"UXhq-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1What in the name of...-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.10 (Darwin)iEYEARECAAYFAkxoyi4ACgkQmBxf18ZxJX2SLwCfeIzuImk0unrqKF7Jjed/MMHtZA4AoLXxJEdCRvaFTLi42R5nuKdsRnTL=UXhq-----END PGP SIGNATURE-----
+
+NameError (undefined local variable or method `td_stderr' for #<MessageController:0x10466ac38>):
+  app/controllers/message_controller.rb:21:in `new'
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:19:01) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1What in the name of...-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.10 (Darwin)iEYEARECAAYFAkxoykMACgkQmBxf18ZxJX16UgCdHKsRZQXyRPA2WDHyajCmO98UPhUAoMbyPBJ4OgR6KJp4h74iabOmtN2B"=>"RTLq-----END PGP SIGNATURE-----"}
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA1What in the name of...-----BEGIN PGP SIGNATURE-----Version: GnuPG v1.4.10 (Darwin)iEYEARECAAYFAkxoykMACgkQmBxf18ZxJX16UgCdHKsRZQXyRPA2WDHyajCmO98UPhUAoMbyPBJ4OgR6KJp4h74iabOmtN2B=RTLq-----END PGP SIGNATURE-----
+Completed in 70ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:19:44) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxoym8ACgkQmBxf18ZxJX14HgCeJD5r2Z0EwU9198cnKB4Iq2r4\n9kQAoLFH7L0FtX5QdCoHpCxOMQ0CmJ 0\n"=>"vpXm\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxoym8ACgkQmBxf18ZxJX14HgCeJD5r2Z0EwU9198cnKB4Iq2r4
+9kQAoLFH7L0FtX5QdCoHpCxOMQ0CmJ+0
+=vpXm
+-----END PGP SIGNATURE-----
+Completed in 89ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:21:34) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxoyt0ACgkQmBxf18ZxJX0XUACeO3qPnqBT0R  0TNwwobCAk1C\n SIAoMKmGkehG54V h2Rc1c6N6oYANuB\n"=>"/ntf\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxoyt0ACgkQmBxf18ZxJX0XUACeO3qPnqBT0R++0TNwwobCAk1C
++SIAoMKmGkehG54V+h2Rc1c6N6oYANuB
+=/ntf
+-----END PGP SIGNATURE-----
+Completed in 69ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:21:59) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxoyvYACgkQmBxf18ZxJX1sFwCfRyjgLV0yvndkzvdk0FJVqovB\n3f8An1y19Pf3e2YQ/OPlDcbfo4Jmh/Ll\n"=>"ZWzD\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxoyvYACgkQmBxf18ZxJX1sFwCfRyjgLV0yvndkzvdk0FJVqovB
+3f8An1y19Pf3e2YQ/OPlDcbfo4Jmh/Ll
+=ZWzD
+-----END PGP SIGNATURE-----
+Completed in 69ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:23:38) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxoy1kACgkQmBxf18ZxJX0ZowCfSbnZ3T/ez7iz1l7Mc11tRYgi\n2hUAnjJqbK5i/NJteY Wa29fJb8/Ysss\n"=>"siBh\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxoy1kACgkQmBxf18ZxJX0ZowCfSbnZ3T/ez7iz1l7Mc11tRYgi
+2hUAnjJqbK5i/NJteY+Wa29fJb8/Ysss
+=siBh
+-----END PGP SIGNATURE-----
+Completed in 75ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:27:55) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxozFoACgkQmBxf18ZxJX21aQCgloxlB1P5H2XEaiIkQtaCdiPZ\nZxMAoLODvu4BuVMoft7PMOpBP0NqCWqu\n"=>"g1g4\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxozFoACgkQmBxf18ZxJX21aQCgloxlB1P5H2XEaiIkQtaCdiPZ
+ZxMAoLODvu4BuVMoft7PMOpBP0NqCWqu
+=g1g4
+-----END PGP SIGNATURE-----
+Completed in 136ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:28:23) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxozHYACgkQmBxf18ZxJX3awwCeLT0tkHJNBaJMGpAQ5mTxkvId\nLNQAnifqevyQcrvujvYeFSjehs9dI2fF\n"=>"lxzm\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxozHYACgkQmBxf18ZxJX3awwCeLT0tkHJNBaJMGpAQ5mTxkvId
+LNQAnifqevyQcrvujvYeFSjehs9dI2fF
+=lxzm
+-----END PGP SIGNATURE-----
+Completed in 83ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 00:28:33) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I think the Project needs a leader like Branden.  I do not think the
+Project in its current state actually wants Branden as leader.
+Nevertheless, I respectfully ask Branden to run for DPL this year again.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.0 (GNU/Linux)
+
+iQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5
+n3HCgpxRzJ4x4h2vrf2iQkfyNy5m+bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt
+RDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3+bHcKiuoCYKf9lcB
+dr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g
+K+1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv
+P4iJ1lWQar1EAW8j+d3Eeo3ELD+pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8=
+=shPL
+-----END PGP SIGNATURE-----
+Completed in 250ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:01:05) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1CAACgkQmBxf18ZxJX2rLQCcCo1mWdnzF RhI9YXRTi2JkFH\nyAgAnjoyC/Jiry0823E7jhjeELMHsR2/\n"=>"FgFo\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1CAACgkQmBxf18ZxJX2rLQCcCo1mWdnzF+RhI9YXRTi2JkFH
+yAgAnjoyC/Jiry0823E7jhjeELMHsR2/
+=FgFo
+-----END PGP SIGNATURE-----
+Completed in 131ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:01:32) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1DsACgkQmBxf18ZxJX2fCQCePvTS 0/UV2Tq3uKNQhcO yLw\nkToAn0PlgHofrl5smoy0f/DPPCWE6twu\n"=>"Tfq6\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1DsACgkQmBxf18ZxJX2fCQCePvTS+0/UV2Tq3uKNQhcO+yLw
+kToAn0PlgHofrl5smoy0f/DPPCWE6twu
+=Tfq6
+-----END PGP SIGNATURE-----
+gpg: Signature made Mon Aug 16 01:01:31 2010 CDT using DSA key ID C671257D
+gpg: Good signature from "David Moreno <david@axiombox.com>"
+gpg:                 aka "David Moreno Garza <damogar@gmail.com>"
+gpg:                 aka "David Moreno Garza (1984-08-08) <damog@damog.net>"
+gpg:                 aka "David Moreno Garza (Debian Developer) <damog@debian.org>"
+gpg:                 aka "David Moreno Garza <damog@espiral.org.mx>"
+gpg:                 aka "David Moreno Garza <damog@ciencias.unam.mx>"
+gpg:                 aka "David Moreno Garza (Cerdita's mobile mail system) <damog@cerdita.damog.net>"
+gpg:                 aka "David Moreno Garza (Universidad Iberoamericana, AC.) <dmoreno@alumno.uia.mx>"
+Completed in 69ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:02:11) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1GIACgkQmBxf18ZxJX2U ACglwH6zFbRTc8JAhCcjVV9Tn72\nFTkAoJ3I1UQ77vNUAvNznBRRtcNZgT6x\n"=>"8GSZ\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1GIACgkQmBxf18ZxJX2U+ACglwH6zFbRTc8JAhCcjVV9Tn72
+FTkAoJ3I1UQ77vNUAvNznBRRtcNZgT6x
+=8GSZ
+-----END PGP SIGNATURE-----
+gpg: Signature made Mon Aug 16 01:02:10 2010 CDT using DSA key ID C671257D
+gpg: Good signature from "David Moreno <david@axiombox.com>"
+gpg:                 aka "David Moreno Garza <damogar@gmail.com>"
+gpg:                 aka "David Moreno Garza (1984-08-08) <damog@damog.net>"
+gpg:                 aka "David Moreno Garza (Debian Developer) <damog@debian.org>"
+gpg:                 aka "David Moreno Garza <damog@espiral.org.mx>"
+gpg:                 aka "David Moreno Garza <damog@ciencias.unam.mx>"
+gpg:                 aka "David Moreno Garza (Cerdita's mobile mail system) <damog@cerdita.damog.net>"
+gpg:                 aka "David Moreno Garza (Universidad Iberoamericana, AC.) <dmoreno@alumno.uia.mx>"
+Completed in 90ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:04:07) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1NEACgkQmBxf18ZxJX0pEQCfadViy16 dnMVIlXfjNOz4TZS\nFs8AoJAcPk9krKPIs4j2AEXNlslMffJQ\n"=>"tGIJ\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1NEACgkQmBxf18ZxJX0pEQCfadViy16+dnMVIlXfjNOz4TZS
+Fs8AoJAcPk9krKPIs4j2AEXNlslMffJQ
+=tGIJ
+-----END PGP SIGNATURE-----
+Completed in 70ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:04:16) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1N8ACgkQmBxf18ZxJX3h wCdHzUH6DVJ5UsmPC 8BcZsDikX\nPAMAnRlBeH05156b0YU1LyrpDnoJlJyA\n"=>"8Kjh\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1N8ACgkQmBxf18ZxJX3h+wCdHzUH6DVJ5UsmPC+8BcZsDikX
+PAMAnRlBeH05156b0YU1LyrpDnoJlJyA
+=8Kjh
+-----END PGP SIGNATURE-----
+Completed in 90ms (View: 20, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-08-16 01:09:20) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1g8ACgkQmBxf18ZxJX0KKQCggvO9JbIvws5JbeCg98VIskeR\n0MYAn2l8g/1zZmHWQ6CpqPxxUXmimg3v\n"=>"3gri\n-----END PGP SIGNATURE-----\n"}
+
+SyntaxError (/Users/damog/debian/microb/app/controllers/message_controller.rb:29: unmatched ): /Key fingerprint = ([A-F0-9 ]{50}))/):
+  
+
+Rendered rescues/_trace (67.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-08-16 01:09:41) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1iQACgkQmBxf18ZxJX0B6gCgw6cFYiBbDdTaQ41ltOj ukK4\ncb0AoI2W3ykqp3CvuEo4RKVcu63uEzZe\n"=>"l3Ag\n-----END PGP SIGNATURE-----\n"}
+
+SyntaxError (/Users/damog/debian/microb/app/controllers/message_controller.rb:29: unmatched ): /Key fingerprint = ([A-F0-9 ]{50}))/):
+  
+
+Rendered rescues/_trace (573.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:10:08) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1j8ACgkQmBxf18ZxJX3/XQCfROBSH2m8lf9q xJwaPpdAap7\nOhMAoJXMjgvWCDlXSmVyIdxa7kaq26VT\n"=>"WHSe\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1j8ACgkQmBxf18ZxJX3/XQCfROBSH2m8lf9q+xJwaPpdAap7
+OhMAoJXMjgvWCDlXSmVyIdxa7kaq26VT
+=WHSe
+-----END PGP SIGNATURE-----
+
+NoMethodError (private method `scan' called for []:Array):
+  app/controllers/message_controller.rb:29:in `new'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:10:45) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1mQACgkQmBxf18ZxJX14mgCgrwyuEyAV2JSYTmFoLm8U66iY\ntzoAn38YONvzOjzlkmDhWBYKfB1q3m/8\n"=>"kNGx\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1mQACgkQmBxf18ZxJX14mgCgrwyuEyAV2JSYTmFoLm8U66iY
+tzoAn38YONvzOjzlkmDhWBYKfB1q3m/8
+=kNGx
+-----END PGP SIGNATURE-----
+
+NoMethodError (private method `scan' called for nil:NilClass):
+  app/controllers/message_controller.rb:29:in `new'
+
+Rendered rescues/_trace (54.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:11:24) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1osACgkQmBxf18ZxJX0XiwCgsepFodvRHSii7qVIW DJmj3m\nAKsAn2yYNR4LByztch4VjanRSKuwCkks\n"=>"PRTL\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1osACgkQmBxf18ZxJX0XiwCgsepFodvRHSii7qVIW+DJmj3m
+AKsAn2yYNR4LByztch4VjanRSKuwCkks
+=PRTL
+-----END PGP SIGNATURE-----
+
+NoMethodError (private method `scan' called for nil:NilClass):
+  app/controllers/message_controller.rb:29:in `new'
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:11:43) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1p4ACgkQmBxf18ZxJX0XrQCeNV/fFzZu3hTRHJmlCUm0VAan\npD8AnAwDTT1 b03JlGwU3vdtNAKkUwjn\n"=>"e91N\n-----END PGP SIGNATURE-----\n"}
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+What in the name of...
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkxo1p4ACgkQmBxf18ZxJX0XrQCeNV/fFzZu3hTRHJmlCUm0VAan
+pD8AnAwDTT1+b03JlGwU3vdtNAKkUwjn
+=e91N
+-----END PGP SIGNATURE-----
+Completed in 221ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:12:13) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1r0ACgkQmBxf18ZxJX3zLgCeK8osaJtRgFSlk1abBGVYvuPW\nPpoAn3LRvtESVcSAlxOY8bdlaNMhXSEd\n"=>"RdsW\n-----END PGP SIGNATURE-----\n"}
+pub   1024D/C671257D 2004-12-27 [expires: 2014-12-25]
+
+NoMethodError (private method `scan' called for nil:NilClass):
+  app/controllers/message_controller.rb:30:in `new'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:12:25) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1sgACgkQmBxf18ZxJX09dwCeJOSWaMDOJCTgUptOWgP3RVPA\nalgAnjYLwvXqbRwEdqTSbGs1 ovUfiXv\n"=>"t0lx\n-----END PGP SIGNATURE-----\n"}
+pub   1024D/C671257D 2004-12-27 [expires: 2014-12-25]
+Completed in 189ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:13:06) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1vEACgkQmBxf18ZxJX04AACfbXLG0ppPQItIzrMJl2Q68VRk\nuD0AoJ64TTrKjPZm tQ0FPOVknl1OPr3\n"=>"7Hqh\n-----END PGP SIGNATURE-----\n"}
+["pub   1024D/C671257D 2004-12-27 [expires: 2014-12-25]\n", "      Key fingerprint = 6EF6 C284 C95D 78F6 0B78  FFD3 981C 5FD7 C671 257D\n", "uid                  David Moreno <david@axiombox.com>\n", "uid                  David Moreno Garza <damogar@gmail.com>\n", "uid                  David Moreno Garza (1984-08-08) <damog@damog.net>\n", "uid                  David Moreno Garza (Debian Developer) <damog@debian.org>\n", "uid                  David Moreno Garza <damog@espiral.org.mx>\n", "uid                  David Moreno Garza <damog@ciencias.unam.mx>\n", "uid                  David Moreno Garza (Cerdita's mobile mail system) <damog@cerdita.damog.net>\n", "uid                  David Moreno Garza (Universidad Iberoamericana, AC.) <dmoreno@alumno.uia.mx>\n", "sub   1024g/CE63FE80 2004-12-27 [expires: 2014-12-25]\n", "\n", "pub   1024D/C671257D 2004-12-27 [expires: 2014-12-25]\n", "      Key fingerprint = 6EF6 C284 C95D 78F6 0B78  FFD3 981C 5FD7 C671 257D\n", "uid                  David Moreno <david@axiombox.com>\n", "uid                  David Moreno Garza (1984-08-08) <damog@damog.net>\n", "uid                  David Moreno Garza (Universidad Iberoamericana, AC.) <dmoreno@alumno.uia.mx>\n", "uid                  David Moreno Garza (Debian Developer) <damog@debian.org>\n", "uid                  David Moreno Garza (Cerdita's mobile mail system) <damog@cerdita.damog.net>\n", "uid                  David Moreno Garza <damog@ciencias.unam.mx>\n", "uid                  David Moreno Garza <damog@espiral.org.mx>\n", "uid                  David Moreno Garza <damogar@gmail.com>\n", "sub   1024g/CE63FE80 2004-12-27 [expires: 2014-12-25]\n", "\n"]
+Completed in 206ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:13:33) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1wwACgkQmBxf18ZxJX1umwCgo ORs8WrfAFOvPRY0PjVTNsn\nRTgAnj5jkBC iy4PbHcJyMVnL21TV DV\n"=>"O2EU\n-----END PGP SIGNATURE-----\n"}
+Completed in 188ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:14:04) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1ysACgkQmBxf18ZxJX0T8ACeL8b5dSx60XWBZ9KC4k/RPhGh\nOIUAniKWYabvQkyCf54d0MZnC5N9sfQt\n"=>"3V/X\n-----END PGP SIGNATURE-----\n"}
+
+NoMethodError (private method `gsub' called for [["6EF6 C284 C95D 78F6 0B78  FFD3 981C 5FD7 C671 257D"]]:Array):
+  app/controllers/message_controller.rb:29:in `new'
+
+Rendered rescues/_trace (49.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:15:06) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo12YACgkQmBxf18ZxJX1vqwCfftCbr5EGCY1W/YJ4DX9sFbuu\nOwgAoJ2LdJZFZXkRV70anjCxoaQlvm34\n"=>"W1vx\n-----END PGP SIGNATURE-----\n"}
+
+NoMethodError (private method `gsub!' called for [["6EF6 C284 C95D 78F6 0B78  FFD3 981C 5FD7 C671 257D"]]:Array):
+  app/controllers/message_controller.rb:28:in `new'
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-08-16 01:15:30) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo14EACgkQmBxf18ZxJX1 QgCgszxlJoqxZWUv9gvUO8W6KASH\n3O8An0MelGDGVN7K/m9vhdikvDTxBUSh\n"=>"1BI3\n-----END PGP SIGNATURE-----\n"}
+
+SyntaxError (/Users/damog/debian/microb/app/controllers/message_controller.rb:27: syntax error, unexpected '=', expecting kEND
+        (fpr) = fpra[1].scan(/Key fingerprint = ([A-F0-9 ]{50})/)
+               ^):
+  
+
+Rendered rescues/_trace (136.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:15:44) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo148ACgkQmBxf18ZxJX2dlQCeOuAzNxF4Gx7RHrJfdhbvQ0z0\nzy8AniwRaaaSBWyDNXC2t80WKOvKxWct\n"=>"dqA4\n-----END PGP SIGNATURE-----\n"}
+
+NoMethodError (private method `gsub!' called for ["6EF6 C284 C95D 78F6 0B78  FFD3 981C 5FD7 C671 257D"]:Array):
+  app/controllers/message_controller.rb:28:in `new'
+
+Rendered rescues/_trace (44.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:16:31) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo174ACgkQmBxf18ZxJX3fkQCdFfg104earHF7Bgq2f3Y3uqkT\nT50An0IfSvTzLUcZ0HHmU32LGBvsgdiH\n"=>"xgIE\n-----END PGP SIGNATURE-----\n"}
+Completed in 187ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:16:45) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo180ACgkQmBxf18ZxJX1z1ACeLgSYvqEnS/RJZZuz9GSRLE2k\nU1MAn2mAN4zx1sbgddYXBx4PcpieLJa1\n"=>"Aze3\n-----END PGP SIGNATURE-----\n"}
+Completed in 187ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:17:21) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1/EACgkQmBxf18ZxJX27AQCdHKdc2GZvQxJSItz7gDCLxjgZ\nibwAnj54vP3f7uclOypedYkURDDvvzTG\n"=>"T/gq\n-----END PGP SIGNATURE-----\n"}
+Completed in 186ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:17:28) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo1/cACgkQmBxf18ZxJX33VACgq0VaQirB1xNS2GSiVdJ0uADB\nLiQAoLEpFzGqU7EJrTmkhzTbUeze6fiQ\n"=>"hGeS\n-----END PGP SIGNATURE-----\n"}
+Completed in 188ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:18:57) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2FAACgkQmBxf18ZxJX0iMQCgsCYJ7mV2ITNzDl01nhKHML0W\nN1oAoLsOmqP5IJspprQUu1jS6mkeaJ p\n"=>"QaC7\n-----END PGP SIGNATURE-----\n"}
+Completed in 188ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:19:11) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2F4ACgkQmBxf18ZxJX30ngCbBIqaDSjxwLdxpLpl sA6qjEe\n2VEAoLc  8DynbnAl7cnWGylDDy4Pa1Z\n"=>"YBYM\n-----END PGP SIGNATURE-----\n"}
+Completed in 188ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:19:39) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2HoACgkQmBxf18ZxJX1Y/gCgiy8wAVjC3m34vQR9CNvPUc7u\nmbkAn3sb03Cjg hlNYvqubnEWpunLL7d\n"=>"y/pm\n-----END PGP SIGNATURE-----\n"}
+Completed in 187ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:20:08) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2JYACgkQmBxf18ZxJX1pAQCgpUAp71VBxS/x/fc3001azfPC\nSVQAoMXnIvXAwBvq7Kfn7PlraErkjJCJ\n"=>" m6F\n-----END PGP SIGNATURE-----\n"}
+Completed in 195ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:20:13) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2JwACgkQmBxf18ZxJX34wgCdEsuhcuZNVQTyJfhDZ/rokSJE\n31kAoK a5axC9mMN7YBqwCipdt7asTBK\n"=>"c/dk\n-----END PGP SIGNATURE-----\n"}
+Completed in 189ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:20:26) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2KkACgkQmBxf18ZxJX0z5wCfRFxoaqt4pk9cvNCQz67Cazzb\nwAMAnAigYpw2spyquVXNpaH7d4VotDvo\n"=>"dw4L\n-----END PGP SIGNATURE-----\n"}
+Completed in 192ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:20:40) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think the Project needs a leader like Branden.  I do not think the\nProject in its current state actually wants Branden as leader.\nNevertheless, I respectfully ask Branden to run for DPL this year again.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niQEcBAEBAgAGBQJCFVhMAAoJEHGYqCCEBNUAQLIIAIn4pH0CTY00yTkyxCk0U6A5\nn3HCgpxRzJ4x4h2vrf2iQkfyNy5m bWXnlC3N75UYRLQ48IuG8InMx4DzqWerVOt\nRDDf8gDZ756IhyxWbqDvh0/52XBiCoATrtiqg4UFU7nN80O3 bHcKiuoCYKf9lcB\ndr36FjoP8MO4WQfEWWsrc3LU27Ta757l2gv6C9/8w34b8DHyahJ4HIJYrASD5b0g\nK 1o7uAq1jQLg3RIYzabV/BkX0jIJ9KiZ/AAMcSVnGLjNCnnAklskboEgfa/9HSv\nP4iJ1lWQar1EAW8j d3Eeo3ELD pnw1fb8WpYG8sc9gm44JUhdJrVypergzKLC8"=>"\n=shPL\n-----END PGP SIGNATURE-----\n"}
+Completed in 385ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:21:04) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nWhat in the name of...\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.10 (Darwin)\n\niEYEARECAAYFAkxo2M8ACgkQmBxf18ZxJX1JLgCeMG1rjq ijpkhCy80GGgNMltc\ndaMAn1spk8n4Jl8 0UtQC7gbVrpyjvDH\n"=>"BUba\n-----END PGP SIGNATURE-----\n"}
+Completed in 192ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:22:43) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n"=>"= Michael Ivey ==\nI enthusiastically support Branden's candidacy for DPL 2005.  I believe we have seen\nseveral years of smooth sailing, but very little progress in organizational and process\nissues.  I believe that Branden will act on the goals articulated in his previous\nplatforms.  Once he has said he will accept the nomination, I would be honored to be\none of the people who nominate him.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.2.5 (GNU/Linux)\n\niD8DBQFCC/DVxshy4ONJOMcRAn4dAJ980NkWd8VMZxRRoQ7ydKvSNgD8JgCgkz5A\nSg3rVKSegidSJ3OeqtAWTbI=\n=FwAJ\n-----END PGP SIGNATURE-----\n"}
+Completed in 251ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:22:51) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nI think Branden will do good things for Debian with his strong opinions and fearless ways.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.4.0 (GNU/Linux)\n\niD8DBQFCDOKut1anjIgqbEsRAgZfAKDYppC95G0xGMkH02Sk6OnVFkxRSQCfdTNS\nJmboGN5VA4Y4z39GqzOUwyE"=>"\n=qDen\n-----END PGP SIGNATURE-----\n"}
+Completed in 259ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:23:11) [POST]
+Completed in 70ms (View: 3, DB: 0) | 200 OK [http://localhost/message/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MessageController#new (for 127.0.0.1 at 2010-08-16 01:23:15) [POST]
+  Parameters: {"-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nDebian is making progress sure, but is nowhere near its full potential.\nThis is in large measure due to people who are not pulling their weight.\nWe need a DPL who can light a fire under the somnolent and Branden can\nbe counted upon to be that person.\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.2.5 (GNU/Linux)\n\niD8DBQFCHM3F2kYOR 5txmoRAo1DAJ97fwWFXERQPzF8PIHKXa ESVidWACfa6Bb\nkLrKUM3WphUS7ESpbBjwrjg"=>"\n=T73M\n-----END PGP SIGNATURE-----\n"}
+Completed in 288ms (View: 2, DB: 0) | 200 OK [http://localhost/message/new]
